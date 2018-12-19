@@ -10,4 +10,7 @@
         <h1>{{ d['name'] }}, {{ d['sys']['country'] }}</h1>
         <h1>{{ d['main']['temp']|round|int}} °C</h1>
        {% endfor %}
+
+       <!-- <input type="button" value="Back" onclick="window.history.back()" /> -->
+       <button value="back" onclick="window.history.back()">Back</button>
 </div>
